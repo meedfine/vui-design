@@ -10,6 +10,7 @@
     "docs:preview": "pnpm run -F docs preview",
     "sounds": "pnpm run -F sounds dev",
     "sounds:build": "pnpm run -F sounds build",
+    "sounds:build-web": "pnpm run -F sounds build-web",
     "sounds:preview": "pnpm run -F sounds preview"
   },
   "keywords": [],
