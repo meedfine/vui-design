@@ -1,0 +1,11 @@
+// 隐藏footer
+.VPDoc .prev-next {
+    display: none;
+  }
+
+  // 解决跳页面，navbar抖动问题
+@media (min-width: 1440px) {
+  .VPNavBar.has-sidebar .content[data-v-1cee5d0a] {
+    padding-right: calc((100vw - var(--vp-layout-max-width) - var(--docs-scrollbar-width)) / 2 + 32px);
+}
+}

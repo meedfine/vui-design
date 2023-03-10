@@ -1,0 +1,15 @@
+# ALL
+node_modules
+
+# docs
+docs/.vitepress/cache
+docs/.vitepress/dist
+
+# vui
+vui/lib
+vui/stats.html
+
+# sounds
+sounds/dist
+sounds/dist-electron
+sounds/release

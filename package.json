@@ -1,0 +1,20 @@
+{
+  "name": "vui-design",
+  "version": "0.0.1",
+  "packageManager": "^pnpm@7.29.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs": "pnpm run -F docs dev"
+  },
+  "keywords": [],
+  "author": "meedfine <https://github.com/meedfine>",
+  "license": "MIT",
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
+  }
+}
