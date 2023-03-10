@@ -1,0 +1,24 @@
+{
+  "appId": "com.meedfine.sounds",
+  "productName":"Sounds",
+  "asar": true,
+  "icon": "public/favicon.ico",
+  "directories": {
+    "output": "release/${version}"
+  },
+  "files": [
+    "dist-electron",
+    "dist"
+  ],
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": [
+          "x64"
+        ]
+      }
+    ],
+    "artifactName": "Sounds_${version}.${ext}"
+  }
+}

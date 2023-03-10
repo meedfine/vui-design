@@ -20,7 +20,8 @@ export default defineConfig({
         text: "Components",
         link: "/components/components",
         activeMatch: "/components/",
-      }
+      },
+      { text: 'Sounds', link: 'https://vui-sounds.vercel.app/' }
     ],
     socialLinks: [{ icon: "github", link: "https://github.com/meedfine/vui-design" }],
     sidebar: {

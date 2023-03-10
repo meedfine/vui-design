@@ -4,7 +4,7 @@
 
 body {
   overflow-y: scroll;
-  --docs-scrollbar-width:10px;
+  --docs-scrollbar-width: 10px;
 }
 
 /* 整个滚动条 */
@@ -16,7 +16,7 @@ body {
 /* 滚动条有滑块的轨道部分 */
 ::-webkit-scrollbar-track-piece {
   background-color: transparent;
-  border-radius: 5px; 
+  border-radius: 5px;
 }
 
 /* 滚动条滑块(竖向:vertical 横向:horizontal) */
